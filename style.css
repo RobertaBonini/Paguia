@@ -1,3 +1,32 @@
+section#cabeca {
+  border: solid black;
+  height: 60px;
+  position: relative;
+  
+}
+
+.logo{
+  color: brown;
+  display: inline;
+}
+
+#cabeca p {
+  display: inline;
+}
+
+.perfil {
+  border-radius: 50%;
+}
+
+#pequena{
+  display: flex;
+  width: 6%;
+}
+
+#grande{
+  width: 50%;
+}
+
 #galery img{
   width: 10px;
 }
