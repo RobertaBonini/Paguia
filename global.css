@@ -35,15 +35,6 @@ body{
   border-radius:50%;
 }
 
-#pequena{
-  width: 10%;
-  display: flex;
- justify-content: center;
-}
 #grande{
   width: 50%;
-}
-
-img{
-  width: 10px;
 }

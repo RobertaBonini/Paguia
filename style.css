@@ -1,2 +1,16 @@
 @import url(global.css);
 
+nav{
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+#pequena{
+  width: 10%
+}
