@@ -1,16 +1,30 @@
 @import url(global.css);
 
-nav{
-  border: solid;
-  display: flex;
+nav {
+  display:flex;
+  /* border: solid black; */
   justify-content: space-between;
+  align-items: center;
+
+  /*tira os espaços*/
+  line-height: 0;
+  /*coloca um pading no nav*/
+  padding-block: 20px;
 }
 
-nav ul{
-  list-style: none;
-  display: flex;
+nav ul {
+ list-style: none;
+ display: flex;
+ align-items: center;
+ /*espaço entre elementos*/
+ gap:20px;
+ 
+ padding-block: 8px;
 }
 
-#pequena{
-  width: 10%
+nav ul li:last-child img {
+  /*Se você colocar o tamanho em porcentagem, lembre que 
+ isso pode afetar no espaçamento já que ele vai pegar uma porcentagem do tamanho principal*/
+   width: 40px;
+  height: 40px;
 }
