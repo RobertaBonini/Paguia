@@ -17,7 +17,7 @@ nav ul {
  display: flex;
  align-items: center;
  /*espaço entre elementos*/
- gap:20px;
+ gap:24px;
  
  padding-block: 8px;
 }
@@ -27,4 +27,32 @@ nav ul li:last-child img {
  isso pode afetar no espaçamento já que ele vai pegar uma porcentagem do tamanho principal*/
    width: 40px;
   height: 40px;
+}
+
+/*Começando a biografia*/
+header{
+  padding-block: 32px;
+}
+
+#profile{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#profile div:last-child{
+  max-width: 384px;
+  /* border: solid; */
+}
+
+#profile footer{
+  font-size: 12px;
+  max-width: 200px;
+  text-align: center;
+  /* border: solid; */
+}
+
+#grande{
+  width: 200px;
+  height: 200px;
 }
