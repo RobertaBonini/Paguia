@@ -34,6 +34,28 @@ header{
   padding-block: 32px;
 }
 
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#info{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 280px;
+}
+
+#info li{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+
 #profile{
   display: flex;
   gap: 10px;
@@ -43,10 +65,11 @@ header{
 #profile div:last-child{
   max-width: 384px;
   /* border: solid; */
+  margin-left: 30px;
 }
 
 #profile footer{
-  font-size: 12px;
+  font-size: 10px;
   max-width: 200px;
   text-align: center;
   /* border: solid; */
@@ -55,4 +78,15 @@ header{
 #grande{
   width: 200px;
   height: 200px;
+}
+
+
+#profile h1{
+  font: var(--text-lg) ;
+  color: var(--text-prim);
+  margin-bottom: 8px;
+}
+
+#profile p{
+ font: var(--text-md);
 }

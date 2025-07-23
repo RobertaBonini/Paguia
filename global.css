@@ -18,8 +18,8 @@
   --familia:"Poppins", sans-serif;
   --text-lg: bold 32px/125% var(--familia);
   --text:16px/150% var(--familia);
-  --text-md:14px/175% var(--familia);
-  --text-sm:12px/175% var(--familia);
+  --text-md:14px/170% var(--familia);
+  --text-sm:12px/170% var(--familia);
 
 }
 
