@@ -68,7 +68,7 @@ header .container{
   margin-left: 30px;
 }
 
-#profile footer{
+#emanuele{
   font-size: 10px;
   max-width: 200px;
   text-align: center;
@@ -78,6 +78,7 @@ header .container{
 #grande{
   width: 200px;
   height: 200px;
+  object-fit: cover;
 }
 
 
@@ -135,6 +136,7 @@ footer{
   display: flex;
   padding-block:24px ;
   gap: 24px;
+  font:14px/150% var(--familia) ;
 }
 
 footer span:nth-child(1){
