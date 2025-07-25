@@ -128,3 +128,15 @@ main div{
   text-align: center;      /* Alinha o texto dentro do parágrafo */
   
 }
+
+/*começando o footer*/
+
+footer{
+  display: flex;
+  padding-block:24px ;
+  gap: 24px;
+}
+
+footer span:nth-child(1){
+  margin-right: auto;
+}
